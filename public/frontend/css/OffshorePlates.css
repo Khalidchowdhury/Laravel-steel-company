@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* breadcrumb */
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+    margin-bottom: 0rem;
+    list-style: none;
+}
+.breadcrumbMobile{
+    display: none;
+    padding: 20px 0 10px 10px;
+}
+
+.breadcrumbMobile ol li a{
+    font-family: TT Hoves Pro Trial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+}
+
+.borderBottomFromtablet{
+        border-bottom: 1px solid #AFAFAF
+    ;
+}
+
+.missionValueInfofortablet{
+    display: none;
+}
+
+/* breadcrumb */
+
+
+
+
+
+
+.singleProductImage  img{
+    width: 88%;
+}
+
+
+
+
+
+
+.perticulerProductinfo h2{
+    text-align: left;
+    border-left: 5px solid #FF4A23;
+    padding-left: 10px;
+    padding-bottom: 0;
+}
+
+
+
+.perticulerProductinfo p{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+/* singleProduct */
+
+@media (max-width:1366px){
+.singleProductImage img{
+    width: 88%;
+}
+}
+
+
+
+@media (max-width:1224px){
+    .perticulerProductinfo p{
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width:1024px){
+    .perticulerProductinfo p {
+        font-size: 18px;
+    }
+}
+
+
+
+@media (max-width:991px){
+
+
+
+
+
+
+    .sectionDeviderforDesktopTopPadding {
+        padding-top: 70px;
+    }
+
+    .sectionDeviderforDesktopBottomPadding {
+        padding-bottom: 35px;
+    }
+
+
+    .singleProduct h1{
+        font-family: TT Hoves Pro Trial;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 52.8px;
+        text-align: left;
+        color: #000000;
+        padding-bottom: 38px;
+    }
+    
+.singleProductImage{
+    padding-bottom: 60px;
+}
+
+.breadcrumbDesktop{
+    display: none;
+}
+
+.breadcrumbMobile{
+    display: block;
+    padding: 25px 0;
+    border-bottom: 1px solid #AFAFAF;
+}
+}
+
+
+
+@media (max-width:767px){
+    .singleProductImage img {
+        width: 100%;
+    }
+}
+
+
+@media (max-width:575px){
+
+
+.breadcrumbMobile{
+display: none;
+}
+
+.singleProduct {
+    padding: 0 15px 35px 15px;
+}
+.singleProduct h1{
+    padding-top: 50px;
+}
+
+    .breadcrumb-item+.breadcrumb-item {
+        padding-left: 0rem;
+    }
+    
+    .breadcrumb-item+.breadcrumb-item::before {
+      padding-right: 0rem;
+    }
+    
+    .breadcrumbMobile ol li a {
+      font-size: 14px;
+    }
+
+    .singleProduct h1 {
+        padding-bottom: 30px;
+    }
+
+    .singleProductImage {
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width:500px){
+    .singleProduct {
+        padding: 0 15px 25px 15px;
+    }
+}
+
+@media (max-width:451px){
+    .singleProduct h1{
+        font-size: 25px;
+    }
+    .perticulerProductinfo p {
+        font-size: 16px;
+    }
+
+    .singleProduct {
+        padding: 0 15px 25px 15px;
+    }
+
+}
+
+
+
+
+@media (max-width:380px){
+    h2 {
+        font-size: 20px;
+        font-weight: 450;
+        color: #000000;
+        margin-bottom: 0;
+        padding-bottom: 50px;
+    }
+    .singleProduct h1 {
+        padding-top: 40px;
+    }
+}
+
+
+
+@media (max-width:320px){
+    .singleProduct h1 {
+        padding-top: 30px;
+    }
+    .singleProduct h1 {
+        padding-bottom: 18px;
+    }
+    .singleProduct {
+        padding: 0 15px 0px 15px;
+    }
+}
+
+
+
+
+  /* Styles for allProductBanner */
+.allProductBanner {
+    background-image: url("../images/engineeringProducts.png");
+  }

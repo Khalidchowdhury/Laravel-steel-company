@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* breadcrumb */
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+    margin-bottom: 0rem;
+    list-style: none;
+}
+.breadcrumbMobile{
+    display: none;
+    padding: 20px 0 10px 10px;
+}
+
+.breadcrumbMobile ol li a{
+    font-family: TT Hoves Pro Trial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+}
+
+.borderBottomFromtablet{
+        border-bottom: 1px solid #AFAFAF
+    ;
+}
+
+.missionValueInfofortablet{
+    display: none;
+}
+
+/* breadcrumb */
+
+
+
+/* engineering Products */
+
+
+
+.btn2{
+    width: 242px;
+    height: 52px;
+}
+
+.engineeringProdutcsinfo{
+    padding-right: 98px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.engineeringProdutcs img{
+    width: 100%;
+}
+/* engineering Products */
+
+
+
+
+
+
+
+
+
+@media (max-width:1399px){
+    .engineeringProdutcsinfo {
+        padding-right: 93px;
+    }
+}
+
+
+@media (max-width:1280px){
+    .engineeringProdutcsinfo {
+        padding-right: 60px;
+    }
+}
+
+@media (max-width:1199px){
+}
+
+@media (max-width:991px){
+
+
+    .btn2{
+        width: 220px!important;
+        height: 60px;
+    }
+
+    .engineeringProdutcs {
+        padding: 90px 0;
+    }
+
+    .engineeringProdutcs h1{
+        font-family: TT Hoves Pro Trial;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 5px;
+        text-align: left;
+        padding-bottom: 50px;
+    }
+
+    .engineeringProdutcs p{
+        font-family: TT Hoves Pro Trial;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: left;
+        padding-bottom: 50px;
+    }
+
+    .engineeringProdutcsinfo{
+        padding-bottom: 60px;
+        padding-right: 0;
+    }
+    .engineeringProductimage{
+        width: 100%;
+    }
+
+    .breadcrumbDesktop{
+        display: none;
+    }
+
+    .breadcrumbMobile{
+        display: block;
+        padding: 25px 0;
+        border-bottom: 1px solid #AFAFAF;
+    }
+}
+
+
+@media (max-width:991px){
+  
+    .engineeringProdutcsinfo {
+        padding-bottom: 30px;
+        padding-right: 0;
+    }
+}
+
+@media (max-width:767px){
+    .engineeringProdutcs {
+        padding: 80px 0;
+    }
+
+    .engineeringProdutcsinfo {
+        padding-right: 10px; 
+    }
+}
+
+
+@media (max-width:575px){
+
+    .breadcrumbMobile{
+        display: none;
+    }
+    .engineeringProdutcs {
+        padding: 80px 15px;
+    }
+
+}
+
+
+
+@media (max-width:500px){
+    .engineeringProdutcs h1{
+        font-family: TT Hoves Pro Trial;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 5px;
+        text-align: left;
+        padding-bottom: 40px;
+    }
+    .engineeringProdutcs p{
+        font-family: TT Hoves Pro Trial;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        padding-bottom: 40px;
+        padding-right: 20px;
+    }
+}
+
+
+
+@media (max-width:451px){
+    .engineeringProdutcsinfo {
+        padding-bottom: 10px;
+        padding-right: 0;
+    }
+    .engineeringProdutcs {
+        padding: 71px 15px;
+    }
+    .engineeringProdutcs h1{
+        font-size: 25px;
+    }
+    
+}
+
+
+
+
+
+@media (max-width:380px){
+    .engineeringProdutcs {
+        padding: 58px 15px;
+    }
+}
+
+
+
+  /* Styles for allProductBanner */
+.allProductBanner {
+    background-image: url("../images/engineeringProducts.png");
+  }
+
+
+@media (max-width:320px){
+    .engineeringProdutcs h1 {
+        line-height: 40px;
+    }
+    .engineeringProdutcs {
+        padding: 38px 15px;
+    }
+    .engineeringProdutcs h1 {
+
+        padding-bottom: 16px;
+    }
+  }

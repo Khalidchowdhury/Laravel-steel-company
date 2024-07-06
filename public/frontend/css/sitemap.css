@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* breadcrumb */
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+    margin-bottom: 0rem;
+    list-style: none;
+}
+.breadcrumbMobile{
+    display: none;
+    padding: 20px 0 10px 10px;
+}
+
+.breadcrumbMobile ol li a{
+    font-family: TT Hoves Pro Trial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+}
+
+.borderBottomFromtablet{
+        border-bottom: 1px solid #AFAFAF
+    ;
+}
+
+.missionValueInfofortablet{
+    display: none;
+}
+
+/* breadcrumb */
+
+
+
+
+
+
+
+
+.sitemap-list li{
+    margin-top: 15px;
+}
+
+.sitemap-list li a{
+    font-family: TT Hoves Pro Trial;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #000000;
+}
+
+
+.sitemap    ul li{
+    text-decoration: none!important;
+  }
+
+
+
+  .sitemap ul li a {
+    /* Your existing styles here */
+    transition: none;  /* Explicitly prevent transitions */
+}
+
+.sitemap ul li a:hover {
+    color: #ff4a23;  /* Color change on hover without transition */
+}
+
+.sitemap ul li {
+    text-decoration: underline;
+    text-decoration-color: initial;  /* Default color */
+    transition: none;  /* Explicitly prevent transitions */
+}
+
+.sitemap ul li:hover {
+    text-decoration-color: #ff4a23;  /* Change underline color on hover without transition */
+}
+
+
+
+
+@media (max-width:991px){
+
+
+    .sitemap{
+        margin-top: -20px;
+    }
+
+    .sectionDeviderforDesktopBottomPadding{
+        padding-bottom: 60px;
+    }
+
+    .breadcrumbDesktop{
+        display: none;
+    }
+
+    .breadcrumbMobile{
+        display: block;
+        padding: 25px 0;
+        border-bottom: 1px solid #AFAFAF;
+    }
+
+    .sitemap-list li a {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+
+    .sectionDeviderforDesktopTopPadding {
+        padding-top: 70px;
+    }
+
+
+       
+}
+
+
+@media (max-width:575px){
+    .breadcrumbMobile{
+        display: none;
+    }
+
+
+
+    .sitemap-list{
+        padding-left: 40px;
+    }
+
+
+
+}
+
+
+@media (max-width:451px){
+    .custom-padding {
+        padding-bottom: 0rem!important;
+    }
+    .sitemap-list li a {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .sectionDeviderforDesktopTopPadding {
+        padding-top: 49px;
+    }
+    .sectionDeviderforDesktopBottomPadding {
+        padding-bottom: 40px;
+    }
+
+}
+
+
+
+
+@media (max-width:380px){
+    .sectionDeviderforDesktopTopPadding {
+        padding-top: 41px;
+    }
+}
+
+
+
+
+
+@media (max-width:320px){
+    .sitemap-list li a {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .sitemap-list {
+        padding-left: 44px;
+        padding-right: 20px;
+    }
+}
+
+
+.custom-container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.custom-padding {
+    padding-bottom: 1rem; /* Default for desktop */
+}
+
+
+
+
+
+/* Styles for allProductBanner */
+.allProductBanner {
+    background-image: url("../images/sitemap.jpg");
+  }

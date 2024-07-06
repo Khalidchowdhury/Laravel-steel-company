@@ -1,0 +1,465 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* breadcrumb */
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+    margin-bottom: 0rem;
+    list-style: none;
+}
+.breadcrumbMobile{
+    display: none;
+    padding: 20px 0 10px 10px;
+}
+
+.breadcrumbMobile ol li a{
+    font-family: TT Hoves Pro Trial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+}
+
+.borderBottomFromtablet{
+        border-bottom: 1px solid #AFAFAF
+    ;
+}
+
+.missionValueInfofortablet{
+    display: none;
+}
+
+/* breadcrumb */
+
+
+
+
+/* typography */
+.contact h1{
+    text-align: left;
+}
+/* typography */
+
+
+
+
+/* map */
+
+
+
+.contact .span1{
+    text-align: left;
+}
+
+
+.contact .span2{
+text-align: left;
+}
+
+.contact .span3{
+    font-family: TT Hoves Pro Trial;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    padding-bottom: 16px;
+}
+
+.contact .span4{
+    font-family: TT Hoves Pro Trial;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left; 
+    padding-bottom: 60px;  
+    color: #000000; 
+}
+
+.contact .span5{
+    font-family: TT Hoves Pro Trial;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left; 
+    padding-bottom: 60px;   
+    color: #000000;
+}
+
+.textforonlymobileincontact{
+    display: none;
+}
+
+.span4 a, .span5 a{
+    color: #4B4B4B;
+    font-size: 18px;
+}
+
+.span4 a:hover, .span5 a:hover{
+    color:#ff4a23;
+}
+
+
+.mapouter{
+    max-width: 600px !important;
+    height: 400px !important;
+    margin-bottom: 60px;
+}
+
+
+
+.contactForm{
+    padding: 20px 50px;
+}
+
+
+
+.contactForm h3{
+    font-family: TT Hoves Pro Trial;
+font-size: 20px;
+font-weight: 600;
+line-height: 20px;
+text-align: left;
+color: #000000;
+}
+.fortablet{
+    display: none;
+}
+
+
+.fortablet h4{
+    font-family: TT Hoves Pro Trial;
+font-size: 32px;
+font-weight: 600;
+line-height: 5px;
+text-align: center;
+color: #000000;
+padding-bottom: 80px;
+}
+.displayonlyfromtablet{
+    display: none;
+}
+
+.fortablet{
+    background-color: #F8F8F8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.phonelabel{
+    font-family: TT Hoves Pro Trial;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+color: #000000;
+}
+
+.phonenumber{
+    font-family: TT Hoves Pro Trial;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+color: #4B4B4B;
+padding-bottom: 30px;
+}
+
+
+
+.form-check {
+    margin-right: 0;
+}
+
+/* map */
+
+
+
+
+
+
+
+
+
+@media (max-width:1280px){
+}
+
+@media (max-width:1080px){
+    .form-check {
+        margin-right: 30px;
+    }
+    .contactForm {
+        padding: 20px 22px;
+    }
+}
+
+@media (max-width:991px){
+
+
+    .form-check {
+        margin-right: 0px;
+    }
+
+    .contact h1{
+        text-align: center;
+    }
+
+    .fortablet h4 {
+        padding-bottom: 70px;
+    }
+
+    .mapouter{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    p {
+        padding-bottom: 15px;
+    }
+
+    .contact span{
+        padding-bottom: 40px;
+    }
+
+    .contact h2 {
+        padding-bottom: 50px;
+    }
+
+    .contact h2{
+        font-size: 32px;
+    }
+
+  
+
+    .fortablet{
+        display: block;
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
+
+
+    .displayonyDEsktop{
+        display: none;
+    }
+
+    .displayonlyfromtablet{
+        display: block;
+    }
+
+    .contactForm h2{
+        text-align: center;
+    }
+
+    .contactForm .span2{
+        text-align: center;
+    }
+
+
+    .breadcrumbDesktop{
+        display: none;
+    }
+    .breadcrumbMobile{
+        display: block;
+        padding: 25px 0;
+        border-bottom: 1px solid #AFAFAF;
+    }
+}
+
+
+@media (max-width:767px){
+    .contact {
+        padding-top: 25px;
+        padding-bottom: 70px;
+    }
+    .contact h1 {
+        text-align: center;
+    }
+
+    .form-check {
+        margin-right: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+
+
+@media (max-width:575px){
+    .breadcrumbMobile{
+        display: none;
+    }
+    .fortablet {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+
+    .contactForm {
+        padding: 0 15px 0 18px!important;
+    }
+    .fortablet {
+        padding-bottom: 50px;
+    }
+
+}
+
+
+
+@media (max-width:500px){
+
+
+
+    
+    .fortablet h4{
+        text-align: left;
+    }
+
+    .contactForm h2{
+        text-align: left;
+        font-size: 28px;
+        padding-bottom: 20px;
+    }
+
+    .contactForm .span2{
+        text-align: left;
+    }
+
+    .btn-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 70px;
+    }
+}
+
+@media (max-width:451px){
+    .contact h1 {
+        padding-bottom: 15px;
+    }
+    input[type="search"]{
+        font-size: 16px;
+      }
+      input[type="search"]::placeholder {
+        font-size: 16px;
+      }
+      input::placeholder, input[type="text"],  input[type="tel"], input[type="number"], textarea {
+        font-size: 16px;
+      }
+      textarea::placeholder{
+        font-size: 16px;
+      }
+      textarea{
+        font-size: 16px;
+      }
+      .form-control {
+        font-size: 16px;
+      }
+    p {
+        padding-bottom: 11px;
+    }
+    .fortablet h4 {
+        padding-bottom: 47px;
+    }
+    .fortablet {
+        padding-top: 72px;
+    }
+    .phonenumber{
+        font-size: 16px;
+    }
+    .fortablet h4{
+        font-size: 25px;
+    }
+
+    .contact h1 {
+        text-align: left;
+    }
+    .contact {
+            padding-left: 21px;
+            padding-right: 21px;
+    }
+    .form-check {
+        margin-right: 0px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:380px){
+    .form-check {
+        margin-right: 60px;
+        padding-right: 0;
+    }
+    .fortablet {
+        padding-top: 63px;
+    }
+    .textfordeskandtab{
+        display: none;
+    }
+    .textforonlymobileincontact{
+        display: block;
+    }
+}
+
+
+
+
+@media (max-width:375px){
+
+    .form-check-custom {
+      padding-right: 0px;
+  }
+  }
+  
+
+
+
+  
+  @media (max-width:320px){
+    .form-check-custom {
+      padding-right: 30px;
+  }
+.fortablet h4 {
+	padding-bottom: 36px;
+}
+.phonenumber{
+    padding-right: 30px;
+  }
+  .contactForm h3{
+    margin-top: -25px;
+  }
+}
+  
+  
+  /* Styles for allProductBanner */
+.allProductBanner {
+    background-image: url("../images/contactBanner.png");
+  }

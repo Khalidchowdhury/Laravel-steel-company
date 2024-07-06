@@ -1,0 +1,927 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* breadcrumb */
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+    margin-bottom: 0rem;
+    list-style: none;
+}
+.breadcrumbMobile{
+    display: none;
+    padding: 20px 0 10px 10px;
+}
+
+.breadcrumbMobile ol li a{
+    font-family: TT Hoves Pro Trial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+}
+
+
+
+.missionValueInfo{
+    padding-left: 98px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.borderBottomFromtablet{
+        border-bottom: 1px solid #AFAFAF
+    ;
+}
+
+.missionValueInfofortablet{
+    display: none;
+}
+
+/* breadcrumb */
+
+
+/* hero */
+.allProductBanner{
+    background-image: url("../images/aboutusBanner.png");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    margin-top: 104px;
+    padding: 80px 0;
+}
+
+
+
+
+.allProductBanner h1{
+    color: #ffffff;
+    padding-bottom:30px;
+}
+/* hero*/
+
+
+
+
+
+/* aboutussection1 */
+.aboutussection1Info{
+    padding-right: 98px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutusvideo video{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* aboutussection1 */
+
+
+
+
+/* industry sector  */
+.industraySector{
+    padding-bottom: 50px;
+}
+.industraySectorInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.industraySectorInfo h1{
+    font-family: TT Hoves Pro Trial;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52.8px;
+}
+
+.industraySectorInfo ul li{
+    font-family: TT Hoves Pro Trial;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #4B4B4B;
+    margin-top: 30px;
+}
+
+.displayfromMobile{
+    display: none;
+}
+/* industry sector  */
+
+
+
+/* get to know us */
+
+.gettoKnowUs{
+    background-color: #F1F1F1;
+    padding-top: 60px;
+    padding-bottom: 112px;
+}
+.gettoKnowUs h1{
+    font-family: TT Hoves Pro Trial;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52.8px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 60px;
+}
+
+.gettoKnowUs h3{
+    font-family: TT Hoves Pro Trial;
+font-size: 20px;
+font-weight: 500;
+line-height: 44px;
+text-align: left;
+color: #000000;
+}
+
+.gettoKnowUs p{
+    font-family: TT Hoves Pro Trial;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+color: #4B4B4B;
+padding-bottom: 30px;
+}
+
+.gettoKnowUs ul li{
+    font-family: TT Hoves Pro Trial;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #4B4B4B;
+    margin-top: 15px;
+}
+
+
+
+.missionValue h1{
+    text-align: center;
+}
+
+.missionValue img{
+    width: 100%;
+}
+
+.missionValueInfo h2 {
+    padding-bottom: 20px;
+}
+
+
+
+
+.aboutustabletimage{
+    display: none;
+}
+
+
+.missionandvaluesformobile{
+    display: none;
+}
+/* get to know us */
+
+
+
+
+
+
+
+@media (max-width:1399px){
+
+    .aboutusvideo video{
+        width: 100%;
+    }
+  
+
+  }
+
+
+
+
+@media (max-width:1260px){
+    .aboutussection1Info p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width:1199px){
+    .aboutussection1Info p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .aboutussection1Info h1 {
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 35px;
+        padding-bottom: 20px;
+    }
+
+    .industraySectorInfo h1 {
+        font-size: 35px;
+    }
+
+    .industraySectorInfo ul li {
+        font-size: 17px;
+        margin-top: 25px;
+    }
+}
+
+
+@media (max-width:1080px){
+
+    .missionValueInfo p {
+        font-size: 18px;
+        line-height: 25px;
+        padding-bottom: 40px;
+    }
+
+    .aboutusvideo video {
+        max-width: 100%;
+        height: 460px;
+        object-fit: cover;
+    }
+    .aboutussection1Info {
+        padding-right: 70px;
+    }
+
+    .missionValueInfo {
+        padding-left: 70px;
+    }
+}
+
+
+
+
+@media (max-width:991px){
+
+    .allProductBanner h1{
+        padding-top: 20px;
+    }
+
+    .allProductBanner {
+        margin-top: 100px;
+    }
+
+    .reputation {
+        margin-bottom: 0px;
+    }
+
+    .aboutusdesktopimage{
+        display: none;
+      }
+    
+      .aboutustabletimage{
+        display: block;
+      }
+
+    .missionValueInfo{
+        padding-left: 98px;
+    }
+    .breadcrumbMobile ol li a:hover{
+        color: coral;
+    }
+
+    .missionValue{
+        padding-bottom: 100px;
+    }
+
+    .missionValueP1fortablet{
+        padding: 50px;
+    }
+
+    .missionValueP1fortablet h2{
+        padding-bottom: 20px;
+    }
+
+
+    .missionValueInfofortablet{
+        display: block;
+    }
+
+
+    .missionValueInfo{
+        /* display: none; */
+    }
+
+
+    .missionValue h1{
+        font-size: 32px;
+    }
+
+ .missionValueimg{
+        padding: 0;
+    } 
+
+    .missionValueimg img{
+
+    }
+   
+    .breadcrumbMobile{
+        padding: 0;
+        padding: 25px 0;
+    }
+
+    .breadcrumb{
+        margin: 0;
+    }
+
+    .aboutussection1{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+
+    .missionValueP1{
+        padding-right: 0px;
+    }
+
+    .aboutussection1Info h1{
+        font-family: TT Hoves Pro Trial;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 5px;
+        text-align: left;
+        padding-bottom: 50px;
+    }
+
+    .aboutussection1Info p {
+        font-family: TT Hoves Pro Trial;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: left;
+        padding-bottom: 45px;
+    }
+
+    .displayfromMobile{
+        display: block;
+        font-family: TT Hoves Pro Trial;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 5px;
+        text-align: left;
+        padding-bottom: 40px;
+    }
+
+
+    .gettoKnowUs h1{
+        font-family: TT Hoves Pro Trial;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 5px;
+        text-align: left;
+        padding-top: 40px;
+    }
+
+    .gettoKnowUs p{
+        font-family: TT Hoves Pro Trial;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        padding-bottom: 20px;
+
+    }
+
+    .industraySectorInfo{
+        display: none;
+    }
+    .displayonlydesktop{
+        display: none;
+    }
+
+
+
+    .breadcrumbDesktop{
+        display: none;
+    }
+
+    .breadcrumbMobile{
+        display: block;
+    }
+
+    .aboutussection1Info{
+        padding-right: 0px;
+    }
+}
+
+@media (max-width:850px){
+
+
+}
+
+@media (max-width:768px){
+
+}
+
+@media (max-width:767px){
+
+    .aboutusvideo video {
+        height: 310px;
+    }
+
+
+
+    .reputation {
+        margin-bottom: -30px;
+    }
+
+    .missionValueimg {
+        padding: 0;
+        padding: 0 10px;
+        padding-bottom: 45px;
+    }
+    .missionValueInfo {
+        padding-left: 0px;
+        padding: 0 10px;
+    }
+
+    .missionValue {
+        padding-bottom: 60px;
+    }
+
+    .aboutussection1Info {
+        padding-right: 10px;
+    }
+
+    .aboutusdesktopimage{
+        display: block;
+      }
+    
+      .aboutustabletimage{
+        display: none;
+      }
+}
+
+@media (max-width:575px){
+
+    .aboutussection1Info{
+        padding: 0 25px;
+    }
+
+    .aboutusvideo{
+        padding: 0 25px;
+    }
+
+    .missionValueInfo{
+        padding: 0 25px;
+    }
+
+
+    .missionValueimg img {
+        padding: 10px;
+    }
+
+    .allProductBanner h1{
+     padding-left: 20px;
+    }
+
+    .breadcrumbMobile{
+        padding-left: 10px;
+    }
+
+
+    .borderBottomFromtablet{
+        display: none;
+    }
+
+    .aboutussection1 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .aboutussection1Info h1 {
+        padding-bottom: 40px;
+    }
+
+    .aboutussection1Info p {
+        padding-bottom: 40px;
+    }
+
+    
+    .reputation h1 {
+        padding-top: 20px;
+    }
+    
+
+    .reputation {
+        margin-bottom: 0px;
+    }
+
+    .missionValueimg {
+        padding: 0;
+        padding: 0 16px;
+        padding-bottom: 30px;
+    }
+    h1 {
+        padding-bottom: 28px;
+    }
+
+    .missionValueInfo h2 {
+        padding-bottom: 15px;
+    }
+
+    .missionValueInfo p {
+        padding-bottom: 30px;
+    }
+
+    .missionValue {
+        padding-bottom: 40px;
+    }
+
+}
+
+
+
+@media (max-width:451px){
+
+
+    .aboutussection1Info h1 {
+        font-size: 25px;
+    }
+    .allProductBanner h1{
+        font-size: 30px;
+    }
+    .aboutussection1Info p {
+        font-size: 16px;
+    }
+
+    .missionValue h1 {
+        font-size: 25px;
+    }
+
+
+    .missionValueInfo p{
+        font-size: 16px;
+    }
+
+    .sectionDeviderforDesktopBottomPadding2 {
+        padding-bottom: 30px;
+    }
+
+    .missionValueInfo p{
+        padding-right: 10px;
+    }
+
+
+
+
+
+    .allProductBanner {
+        margin-top: 100px;
+    }
+
+    .allProductBanner h1 {
+        padding-left: 17px;
+    }
+
+    .allProductBanner {
+        padding: 0px 0;
+    }
+
+    .allProductBanner h1 {
+        padding-top: 0px;
+    }
+
+    .allProductBanner h1{
+        padding-bottom: 0;
+    }
+
+
+
+.allProductBanner h1{
+    padding: 70px 14px;
+}
+
+
+
+
+
+    .sectorformobile {
+        padding-bottom: 0px;
+    }
+
+    .reputation h1{
+        margin-bottom: 30px;
+    }
+
+    .sectorformobile{
+        margin-top: 4px;
+    }
+    .missionValue {
+        padding-bottom: 35px;
+    }
+
+    .caruselWrapper {
+        margin-top: -30px;
+      }
+      
+      .aboutussection1 {
+        padding-bottom: 55px;
+    }
+
+    .missionValue h1{
+        text-align: left;
+        padding-left: 15px;
+    }
+    
+}
+
+
+
+@media (max-width:407px){
+    .allProductBanner {
+        margin-top: 99px;
+    }
+}
+@media (max-width:404px){
+    .allProductBanner {
+        margin-top: 98px;
+    }
+}
+@media (max-width:401px){
+    .allProductBanner {
+        margin-top: 97px;
+    }
+}
+@media (max-width:398px){
+    .allProductBanner {
+        margin-top: 96px;
+    }
+}
+@media (max-width:396px){
+    .allProductBanner {
+        margin-top: 95px;
+    }
+}
+@media (max-width:393px){
+    .allProductBanner {
+        margin-top: 94px;
+    }
+}
+@media (max-width:390px){
+    .allProductBanner {
+        margin-top: 93px;
+    }
+}
+
+@media (max-width:387px) {
+    .allProductBanner {
+        margin-top: 92px;
+    }
+}
+@media (max-width:384px) {
+    .allProductBanner {
+        margin-top: 91px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:380px){
+    .reputation h1 {
+        margin-bottom: 35px!important;
+      }
+    
+  }
+
+
+
+
+
+
+  
+
+@media (max-width:381px) {
+    .allProductBanner {
+        margin-top: 90px;
+    }
+}
+@media (max-width:378px) {
+    .allProductBanner {
+        margin-top: 89px;
+    }
+}
+@media (max-width:375px) {
+    .allProductBanner {
+        margin-top: 88px;
+    }
+}
+@media (max-width:372px) {
+    .allProductBanner {
+        margin-top: 87px;
+    }
+}
+@media (max-width:369px) {
+    .allProductBanner {
+        margin-top: 86px;
+    }
+}
+@media (max-width:366px) {
+    .allProductBanner {
+        margin-top: 85px;
+    }
+}
+@media (max-width:363px) {
+    .allProductBanner {
+        margin-top: 84px;
+    }
+}
+@media (max-width:360px) {
+    .allProductBanner {
+        margin-top: 83px;
+    }
+}
+@media (max-width:357px) {
+    .allProductBanner {
+        margin-top: 82px;
+    }
+}
+@media (max-width:354px) {
+    .allProductBanner {
+        margin-top: 81px;
+    }
+}
+@media (max-width:351px) {
+    .allProductBanner {
+        margin-top: 80px;
+    }
+}
+@media (max-width:348px) {
+    .allProductBanner {
+        margin-top: 79px;
+    }
+}
+@media (max-width:345px) {
+    .allProductBanner {
+        margin-top: 78px;
+    }
+}
+@media (max-width:342px) {
+    .allProductBanner {
+        margin-top: 77px;
+    }
+}
+@media (max-width:340px) {
+    .allProductBanner {
+        margin-top: 76px;
+    }
+}
+@media (max-width:336px) {
+    .allProductBanner {
+        margin-top: 75px;
+    }
+}
+@media (max-width:333px) {
+    .allProductBanner {
+        margin-top: 74px;
+    }
+}
+@media (max-width:330px) {
+    .allProductBanner {
+        margin-top: 73px;
+    }
+}
+@media (max-width:327px) {
+    .allProductBanner {
+        margin-top: 72px;
+    }
+}
+@media (max-width:324px) {
+    .allProductBanner {
+        margin-top: 71px;
+    }
+}
+@media (max-width:321px) {
+    .allProductBanner {
+        margin-top: 70px;
+    }
+}
+
+
+  
+
+
+  @media (max-width:320px){
+
+    .aboutussection1 {
+        padding-top: 60px;
+    }
+
+    .aboutussection1Info h1 {
+        padding-bottom: 30px;
+    }
+
+    .aboutusvideo video{
+        height: 290px;
+    }
+
+    .missionandvaluesfordestop{
+        display: none;
+    }
+    .missionandvaluesformobile{
+        display: block;
+    }
+
+
+
+    .caruselWrapper{
+        padding-bottom: 10px;
+    }
+    .missionValue {
+        padding-bottom: 20px;
+    }
+  }
+
+
+
+
+  
+@media (max-width:320px) {
+    .allProductBanner {
+        margin-top: 69px;
+    }
+}
+@media (max-width:315px) {
+    .allProductBanner {
+        margin-top: 68px;
+    }
+}
+@media (max-width:312px) {
+    .allProductBanner {
+        margin-top: 67px;
+    }
+}
+@media (max-width:310px) {
+    .allProductBanner {
+        margin-top: 66px;
+    }
+}
+@media (max-width:306px) {
+    .allProductBanner {
+        margin-top: 65px;
+    }
+}
+@media (max-width:303px) {
+    .allProductBanner {
+        margin-top: 64px;
+    }
+}
+@media (max-width:300px) {
+    .allProductBanner {
+        margin-top: 63px;
+    }
+}
+@media (max-width:295px) {
+    .allProductBanner {
+        margin-top: 60px;
+    }
+}
+@media (max-width:290px) {
+    .allProductBanner {
+        margin-top: 58px;
+    }
+}
+@media (max-width:285px) {
+    .allProductBanner {
+        margin-top: 56px;
+    }
+}
+@media (max-width:280px) {
+    .allProductBanner {
+        margin-top: 54px;
+    }
+}
+
+
+
+

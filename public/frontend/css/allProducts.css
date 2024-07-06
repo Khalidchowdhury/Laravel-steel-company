@@ -1,0 +1,329 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* breadcrumb */
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+    margin-bottom: 0rem;
+    list-style: none;
+}
+.breadcrumbMobile{
+    display: none;
+    padding: 20px 0 10px 10px;
+}
+
+.breadcrumbMobile ol li a{
+    font-family: TT Hoves Pro Trial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+}
+
+.borderBottomFromtablet{
+        border-bottom: 1px solid #AFAFAF;
+}
+
+.missionValueInfofortablet{
+    display: none;
+}
+
+/* breadcrumb */
+
+
+
+
+.pagination-controls{
+    display: none;
+}
+
+
+
+
+
+
+
+
+/* products */
+
+.perticularProduct {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border: 1px solid rgba(255, 255, 255, 0.25); /* Light border for a glass edge effect */
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out; /* Smooth transitions */
+    display: flex; /* Makes the anchor fill the entire div */
+    flex-direction: column; /* Stack children vertically */
+    margin-bottom: 60px; /* Separation between items */
+}
+
+.perticularProduct a {
+    display: flex; /* Ensure the anchor fills the entire space */
+    flex-direction: column; /* Organize children vertically */
+    height: 100%; /* Stretch to fill the container */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.perticularProduct img {
+    width: 100%; /* Ensure images fill the width */
+    flex-shrink: 0; /* Prevent image from shrinking */
+}
+
+.perticularProduct h3 {
+    font-family: 'TT Hoves Pro Trial', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #000000;
+    padding: 30px 0 15px 0;
+}
+
+.perticularProduct p {
+    padding-bottom: 18px;
+    margin-bottom: 0;
+    flex-grow: 1; /* Allow paragraph to expand and push down any space */
+}
+
+
+.perticularProduct:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Increase shadow on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+
+
+        
+        /* products */
+
+
+
+        @media (max-width:991px){
+
+            .breadcrumbMobile{
+                display: none;
+                padding: 25px 0;
+            }
+            .breadcrumbMobile{
+                display: block;
+                border-bottom: 1px solid #AfAfAf;
+            }
+            .productsGallery p{
+                font-size: 18px;
+            }
+
+            .breadcrumbDesktop{
+                display: none;
+            }
+        
+
+
+            .productsGallery h1{
+                font-size: 32px;
+                padding-bottom: 50px;
+            }
+
+            .productsGallery{
+               padding-top: 70px;
+               padding-bottom: 30px;
+            }
+            
+        }
+        @media (max-width:575px){
+            .productsGallery {
+                padding: 30px 25px 0 25px;
+            }
+            
+
+            .breadcrumbMobile{
+               display: none;
+            }
+            .productsGallery h1{
+                padding-left: 10px;
+            }
+
+            .perticularProduct {
+                padding: 0 20px;
+            }
+
+        }
+
+
+@media (max-width:480px){
+    .productCardfor1080 {
+        width: 100%;
+    }
+    .perticularProduct {
+        box-shadow: none;
+        border: none;
+    }
+    .pagination-controls{
+        display: block;
+    }
+    
+    .pagination-controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+      
+      .pagination-btn {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        margin: 0 5px;
+        cursor: pointer;
+      }
+      
+      .pagination-btn:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+      }
+      
+      #paginationNumbers {
+        display: flex;
+        align-items: center;
+      }
+      
+      #paginationNumbers span {
+        margin: 0 5px;
+        cursor: pointer;
+      }
+      
+      #paginationNumbers span.active {
+        font-weight: bold;
+        text-decoration: underline;
+      }
+      
+
+
+}
+
+
+@media (max-width:451px){
+
+    .pagination-controls{
+        display: block;
+    }
+
+    .productsGallery h1 {
+        font-size: 25px;
+        padding-bottom: 50px;
+    }
+
+    .perticularProduct h3 {
+        font-weight: 500;
+    }
+
+    .productsGallery p {
+        font-size: 16px;
+    }
+
+  
+
+    .productCardfor1080 {
+        width: 100%;
+    }
+
+
+
+    .pagination-controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding-bottom: 60px;
+      }
+      
+      .pagination-btn {
+        background-color: rgb(255, 255, 255);
+        color: rgb(128, 128, 128);
+        border: none;
+
+        margin: 0 5px;
+        cursor: pointer;
+        border: 1px solid #e6e6e6;
+        
+      }
+      
+      .pagination-btn:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+      }
+      
+      #paginationNumbers {
+        display: flex;
+        align-items: center;
+
+      }
+      
+      #paginationNumbers span {
+        margin: 0 5px;
+        cursor: pointer;
+        border: 1px solid #e6e6e6;
+        margin-right: 5px;
+        padding: 5px 13px;
+      }
+      
+      #paginationNumbers span.active {
+        font-weight: bold;
+        background-color: #FF4A23;
+        color: white;
+        border: none;
+        text-decoration: none;
+      }
+      
+
+}
+
+
+
+
+@media (max-width:380px){
+
+}
+
+
+@media (max-width:320px){
+    .pagination-container ul li {
+        margin: 0 4px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        padding: 5px 12px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+}
+ 
+  /* Styles for allProductBanner */
+.allProductBanner {
+    background-image: url("../images/engineeringProducts.png");
+  }

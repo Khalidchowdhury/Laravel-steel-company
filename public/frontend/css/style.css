@@ -1,0 +1,3896 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: TT Hoves Pro Trial;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+.dropdown-item:focus, .nav-link:focus {
+  background-color: transparent;
+}
+
+/* typography */
+h1{
+  font-size: 48px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 0;
+  padding-bottom: 60px;
+}
+
+h4{
+  font-size: 48px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 0;
+  padding-bottom: 50px;
+  text-align: center;
+  padding-bottom:70px;
+}
+
+
+.reputation h1{
+  text-align: center;
+}
+
+.sector h1{
+text-align: center;
+}
+
+.contact h1{
+  text-align: center;
+}
+
+
+h2{
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 0;
+  padding-bottom: 50px;
+}
+
+
+
+
+h6{
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+
+
+p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #4B4B4B;
+  margin-bottom:0;
+  padding-bottom: 60px;
+}
+
+.reputationText {
+  text-align: center;
+}
+
+.reputationCard p{
+  padding-bottom: 0;
+}
+
+
+.contact p{
+  text-align: center;
+}
+
+.contact span {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: right;
+  display: block;
+  padding-bottom: 20px;
+  color: #4B4B4B;
+}
+
+
+label{
+  font-size: 18px;
+  font-weight: 400;
+  color: #4B4B4B;
+}
+
+.form-check-label {
+  white-space: nowrap; /* Prevents text from wrapping */
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: .01em;
+  color: #000;
+  padding: 8px 20px!important;
+  margin-right: 30px;
+}
+
+
+/* typography */
+
+
+
+
+/* display hide remove issue */
+
+.textfortabletforcontact{
+  display: none;
+}
+
+.textformobileforconatct{
+  display: none;
+}
+
+.newHometext{
+  display: none;
+}
+
+.copyRightfor500{
+  display: none;
+}
+
+.emailPhonefor767{
+  display: none;
+}
+
+.offcanvas-menu{
+  display: none;
+}
+
+.headerformobile{
+  display: none;
+}
+.viewBottonfortablet{
+  display: none!important;
+}
+
+
+.carouselreputation{
+  display: none;
+}
+.productdivisionimageforsmalldevice{
+  display: none;
+}
+
+
+.videosectionforsplitscreen {
+  display: none;
+}
+
+
+.mobile{
+  display: none;
+}
+
+.textfortablet{
+  display: none;
+}
+
+
+.secorfortablet{
+  display: none;
+}
+
+.sectorformobile{
+  display: none;
+}
+
+
+/* display hide remove issue */
+
+
+
+
+
+/* padding margin issue */
+.sectionDeviderforDesktop{
+  margin-bottom: 100px;
+}
+.sectionDeviderforDesktop2{
+  margin-bottom: 70px;
+}
+
+
+
+.sectionDeviderforDesktopTopPadding{
+  padding-top: 100px;
+}
+
+.sectionDeviderforDesktopTopPadding2{
+  padding-top: 80px;
+}
+
+
+
+.sectionDeviderforDesktopBottomPadding{
+  padding-bottom: 100px;
+}
+.sectionDeviderforDesktopBottomPadding2{
+  padding-bottom: 70px;
+}
+
+.sectionDeviderforDesktopBottomPadding3{
+  padding-bottom: 120px;
+}
+/* padding margin issue */
+
+
+
+
+/* common issues */
+
+.container-custom {
+  max-width: 1700px;
+}
+
+
+
+/* Targeting the breadcrumbs to change text color */
+.breadcrumb {
+  color: #fff; /* This changes the text color */
+}
+
+/* Change the color of text and link in the breadcrumb */
+.breadcrumb a {
+  color: #fff; /* This changes the link color */
+}
+
+/* Change the breadcrumb divider color */
+.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  color: #fff; /* This changes the separator color */
+}
+
+/* Ensure the active breadcrumb item is also white */
+.breadcrumb-item.active {
+  color: #fff;
+}
+
+/* Set the font size for placeholder text and input text to 18px */
+input[type="search"]{
+  font-size: 18px;
+}
+input[type="search"]::placeholder {
+  font-size: 18px;
+}
+input::placeholder, input[type="text"],  input[type="tel"], input[type="number"], textarea {
+  font-size: 18px;
+}
+textarea::placeholder{
+  font-size: 18px;
+}
+textarea{
+  font-size: 18px;
+}
+.form-control {
+  font-size: 18px;
+}
+
+
+
+
+
+
+.breadcrumbMobile ol li a:hover{
+  color: #FF4A23;
+}
+
+
+
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+carousel .owl-nav.disabled{
+  display: block!important;
+}
+
+
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+	overflow: hidden;
+  width: 164px;
+  height: 54px;
+	position: relative;
+	z-index: 0;
+  background-color: #ff4a23;
+  font-family: TT Hoves Pro Trial;
+  font-size: 18px!important;
+  font-weight: 400;
+  /* padding: 8px 32px 8px 32px; */
+  border: none;
+  border-radius: 0;
+  box-shadow: 0px 4px 28px 0px #00000021;
+}
+
+.btn1{
+  width: 196px;
+}
+
+.btn3{
+  width: 242px;
+  font-size: 16px;
+}
+
+.btn2 a{
+  text-align: center;
+}
+
+.a1 {
+  color: #ffffff;
+}
+
+.a1:before {
+  background: #ffffff;
+}
+
+a:before {
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: -1;
+	border-radius: 50%;
+	transition: all 500ms ease-in-out;
+}
+a:hover {
+	cursor: pointer;
+	color: #ff4a23;
+}
+a:hover:before { 
+	content: "";
+	width: 285px;
+	height: 250px;
+	left: -13%;
+	top: -150%;
+	transition: all 500ms ease-in-out;
+}
+
+
+
+
+.card-img, .card-img-top {
+  border-top-left-radius: 0!important;
+  border-top-right-radius:  0!important;
+}
+
+.item button:hover{
+  background-color: #FF4A23;
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+  background: #FF4A23;
+  color: #FFF;
+  text-decoration: none;
+}
+
+
+.structuralDivisionRight .owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  left: -60px!important;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.structuralDivisionRight .owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  right: -60px!important;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.structuralDivisionRight .owl-carousel .owl-nav button.owl-prev .fa-chevron-left{
+  font-size: 25px;
+}
+/* common properties */
+
+
+
+
+
+
+/* Header Stylesheet */
+
+/* General navbar styles, applying a shadow for visual separation from the page content */
+.navbar {
+  z-index: 99999; /* Ensures navbar stays on top of other content */
+  box-shadow: 0px 8px 8px 0px rgba(83, 83, 83, 0.25); /* Shadow for 3D effect */
+}
+
+/* Styling for the navbar brand logo to maintain specific dimensions */
+/* .navbar-brand img {
+  width: 181px;
+  height: 124px; 
+} */
+
+/* Styles to show the dropdown menu when the parent item is hovered over */
+.nav-item.dropdown:hover > .dropdown-menu {
+  display: block; /* Makes dropdown visible on hover */
+}
+
+/* Styling for the nav-link within dropdown to highlight on hover */
+.nav-item.dropdown:hover > .nav-link {
+  background-color: #ff4a23; /* Orange background for active state */
+  color: #fff; /* White text color */
+}
+
+
+
+/* Styles for displaying nested dropdown menus positioned to the side of parent menu */
+.dropdown-item.dropdown:hover > .dropdown-menu {
+  display: block; /* Ensures the submenu displays */
+  position: absolute; /* Absolute positioning relative to parent item */
+  left: 100%; /* Aligns submenu to the right edge of the parent menu */
+  top: 0; /* Aligns submenu to the top of the parent menu */
+}
+
+/* Positioning for dropdown items that have a nested dropdown */
+.dropdown-item.dropdown {
+  position: relative; /* Establishes positioning context for nested elements */
+}
+
+/* Styling for right-pointing caret in dropdown menus */
+.fa-caret-right {
+  position: absolute; /* Absolute positioning within parent */
+  right: 20px; /* Positioned 20px from the right */
+  top: 50%; /* Centered vertically */
+  transform: translateY(-50%); /* Offset by half its height for perfect centering */
+}
+
+/* Font styling and padding for dropdown items */
+.dropdown-item {
+  font-size: 18px; /* Increased font size for readability */
+  padding: 0; /* Removes padding for alignment */
+}
+
+/* Hover styling for dropdown items and nav-links for consistency */
+.dropdown-item:hover,
+.nav-link:hover {
+  background-color: #ff4a23; /* Orange background on hover */
+  color: #fff !important; /* Ensures text is white */
+}
+
+/* Custom padding for navigation links to ensure visual consistency */
+.customnavlink {
+  padding: 8px 15px 8px 10px; /* Specific padding for alignment and spacing */
+}
+
+/* Styling for dropdown menus to control width and appearance */
+.dropdown-menu {
+  width: 320px; /* Fixed width for all dropdowns */
+  padding: 0; /* Removes padding for clean edges */
+  border-radius: 0; /* No rounded corners for a modern look */
+}
+
+/* Additional padding for links inside dropdown menus for easier targeting */
+.dropdown-menu li a {
+  padding-left: 20px !important; /* Left padding for alignment and space */
+}
+
+/* Right padding in navbar to maintain layout consistency */
+.navpaddingEnd {
+  padding-right: 16px; /* Right padding for visual balance */
+}
+
+/* Container within navbar to manage overall alignment and padding */
+.navbar > .container {
+  padding-right: 25px; /* Right padding to ensure content is not flush with edges */
+}
+
+/* Styling for the search form to integrate seamlessly with the navbar */
+.form-control2 {
+  border-radius: 0; /* No rounded corners for a consistent flat style */
+}
+
+
+/* Ensures focused navigation links remain visually consistent */
+.nav-link:focus {
+  color: #ffffff!important;/* White text to maintain focus visibility */
+  background-color: #ff4a23;
+}
+.btn:focus, .btn.focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+
+
+
+.searchContainerWrapper{
+  background-color: #2E2D2D;
+}
+.search-container{
+  background-color: transparent;
+
+}
+
+.search-container input{
+  background-color: transparent;
+  color: #ffffff;
+}
+
+
+.no-scroll {
+  overflow: hidden;
+}
+
+
+/* End of Header Stylesheet */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hero */
+.video-container {
+  position: relative;
+  width: 100%;
+  height:calc(100vh - 100px); 
+  margin-top: 112px;
+}
+
+.video-container video {
+  min-width: 100%; 
+  min-height: 100%; 
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+
+.overlay {
+  background-color: rgb(0 0 0 / 67%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+.videoContent{
+  max-width: 1700px;
+  margin: auto;
+  padding: 0 30px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.overlay h1 {
+  color: #ffffff;
+  font-family: TT Hoves Pro Trial;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62px;
+  text-align: left;
+  padding-bottom: 60px;
+}
+
+.overlay h1 span{
+  font-weight: 700;
+}
+
+.overlay p{
+  font-family: TT Hoves Pro Trial;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #ffffff;
+  padding-bottom: 60px;
+} 
+
+/* hero */
+
+
+
+
+
+
+
+/* about us */
+
+.vieoPart {
+  position: relative;
+  width: 100%; /* Set the width */
+  height: 648px; /* Set the height */
+}
+.vieoPartMain{
+  position: relative;
+}
+.vieoPart video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Makes video fill the container width */
+  height:100%; /* Makes video fill the container height */
+  object-fit: cover; /* Ensures the video covers the area properly */
+}
+
+.infoPart{
+  padding-left: 98px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* about us */
+
+
+
+
+
+
+
+/* reputation */
+
+.reputationCard{
+  text-align: center;
+  padding: 15px;
+  height: 250px;
+}
+
+.reputationCard img{
+  width: 32.6px;
+  height: 30.51px;
+  margin: auto;
+}
+
+.carousel1 img {
+  display: block;
+  width: inherit!important;
+}
+
+.carousel1{
+  display: none!important;
+}
+
+.owl-counter{
+  display: none;
+}
+
+/* reputation */
+
+
+
+
+
+
+
+
+
+
+
+
+/* sector */
+
+.imagesHolder{
+  display: flex;
+  width: 100%; /* Ensure the holder takes the full width */
+}
+
+.imageWrapper{
+  flex: 1; /* This makes each wrapper take equal space in the container */
+  display: flex; /* To apply flex properties inside the wrapper, if needed */
+  position: relative;
+}
+
+.imageWrapper img{
+  width: 100%; /* Makes the image take the full width of its parent */
+  height: auto; /* Keeps the aspect ratio of the image */
+}
+
+.imageName{
+  background-color: rgba(51, 51, 51, 0.5); /* #333333 with 50% opacity */
+  position: absolute;
+  z-index: 9999;
+  bottom: 20px;
+  right: 0;
+  height:41px;
+  width: 163px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.imageName p{
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+}
+/* sector */
+
+
+
+/* product division */
+.productDivision{
+  background-color:#F1F1F1;
+}
+
+.productDivisionInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding-left: 98px;
+}
+
+
+.productDivisionTextforMobile{
+  display: none;
+}
+
+.productDivision img{
+  width: 546px;
+}
+
+/* product division */
+
+
+
+
+
+
+
+
+
+/* structural division */
+.structuralDivision {
+  background-color:#F1F1F1;
+}
+
+
+
+
+
+.owl-carousel .item img {
+  height: 100%; /* Make the image fill the height of its parent container */
+  object-fit: cover; /* Ensure the image covers the entire container without stretching */
+  margin-bottom: 15px;
+}
+
+
+.btn2{
+  width: 242px;
+  margin-bottom: 20px;
+}
+
+
+.structuralDivisionRight{
+  padding-top: 30px;
+}
+
+
+
+
+
+
+.structuralDivisionRight .owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  left: -25px; /* Adjust as needed */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.structuralDivisionRight .owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  right: -25px; /* Adjust as needed */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.structuralDivisionRight .owl-carousel .owl-nav button {
+  background: #fff; /* Button background */
+  color: #333; /* Arrow color */
+  border-radius: 50%;
+  width: 40px; /* Button size */
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.structuralDivisionRight .owl-carousel .owl-nav button .fa-chevron-right{
+  font-size: 25px;
+}
+
+
+.structuralDivisionRight .card{
+  background-color: #F1F1F1;
+  padding: 15px;
+}
+
+.item button{
+  width: 100%;
+  background-color: #ffffff;
+  color: #ff4a23;
+  border: 1px solid #ff4a23;
+  height: 52px;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card{
+  border: none;
+}
+
+/* structural division */
+
+
+
+
+
+
+
+/* Engineering Division */
+.engineeringDivision{
+  background-color: #F1F1F1;
+}
+
+
+.engineeringDivisionVideo video {
+  width: 100%;
+  height: auto; /* Ensures the video is responsive but may need adjustment */
+}
+
+.engineeringDivisionTextInfo {
+  padding-right: 98px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Engineering Division */
+
+
+
+
+
+
+/* contact */
+
+
+
+
+
+
+
+.border-bottom-only {
+  border: none;
+  border-bottom: 1px solid #AFAFAF; /* Customize the color as needed */
+  box-shadow: none;
+}
+
+
+
+
+ 
+
+
+  .border-bottom-only {
+    border: none;
+    border-bottom: 1px solid #AFAFAF; /* Customize the color as needed */
+    box-shadow: none;
+    width: 100%; /* Ensure full width */
+  }
+
+
+
+  .btn-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns the button to the right */
+    margin-top: 20px; /* Adds some space above the button, adjust as needed */
+  }
+  
+ 
+.btnSubmit{
+  color: #ffffff;
+}
+
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 50%!important;
+  width: 100%;
+}
+
+.map{
+  padding: 20px;
+
+}
+
+.map2{
+  padding: 20px;
+  padding-right: 80px;
+}
+
+.form-check-custom{
+  margin-right: 0;
+}
+
+
+
+.form-control{
+  border-radius: 0;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 75, 35, 0); /* Light orange glow using #FF4A23 */
+  outline: none;
+  border-color: #4B4B4B;
+}
+
+.custom-captcha label{
+  font-size: 16px;
+}
+
+.contactForm {
+  padding: 16px;
+}
+/* contact */
+
+
+
+
+
+/* footer */
+footer{
+ background-color:#373737;
+ padding: 60px 20px 30px 20px;
+}
+
+footer p, h3{
+  color: #F0F0F0;
+  font-family: TT Hoves Pro Trial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.16px;
+  text-align: left;
+ }
+
+ footer a{
+  color: #F0F0F0;
+  font-family: TT Hoves Pro Trial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.16px;
+  text-align: left;
+ }
+ 
+
+
+
+ footer h3{
+  font-size: 20px;
+  padding: 35px 0px 15px 0px;
+ }
+
+ footer p{
+  padding-bottom: 30px;
+ }
+
+.fotternewClass{
+  padding-right: 156px;
+}
+
+ footer  a:hover{
+  color: #FF4A23;
+ }
+ 
+ 
+
+
+.footerImage img{
+  width: 154px;
+}
+
+.hiddeninDesktop{
+  display: none;
+}
+
+.footerNewMargin{
+  margin-top: -2px;
+}
+
+/* footer */
+
+
+
+
+
+
+ .floating-wpp{
+  z-index: 999;
+} 
+
+
+
+
+
+@media (max-width:1600px){
+  .fotternewClass{
+    padding-right: 100px;
+  }
+}
+
+@media (max-width:1550px){
+  .fotternewClass{
+    padding-right: 80px;
+  }
+}
+
+@media (max-width:1450px){
+  .fotternewClass{
+    padding-right: 85px;
+  }
+}
+
+
+/* MEDIA QUERY */
+
+@media (max-width:1399px){
+  .lastdesktopdevice{
+    width: 30%!important;
+  }
+
+  .nav-link{
+    font-size: 17px;
+  }
+
+
+
+
+  .map2 {
+    padding: 20px;
+    padding-right: 70px;
+}
+
+  .map{
+    width: 38%;
+  }
+
+  .contactForm{
+    width: 62%;
+  }
+
+
+  .mapouter {
+    height: 40%!important;
+}
+
+
+  /* Set the font size for placeholder text and input text to 18px */
+input[type="search"]{
+  font-size: 17px;
+}
+input[type="search"]::placeholder {
+  font-size: 17px;
+}
+input::placeholder, input[type="text"],  input[type="tel"], input[type="number"], textarea {
+  font-size: 17px;
+}
+textarea::placeholder{
+  font-size: 17px;
+}
+textarea{
+  font-size: 17px;
+}
+.form-control {
+  font-size: 17px;
+}
+
+
+  .btn {
+    font-size: 17px!important;
+    padding: 0;
+}
+
+  .structuralDivisionRight .card {
+    padding: 10px;
+}
+
+  .engineeringDivisionVideo {
+    width: 100%; /* Ensures video container uses full available width */
+    height: 400px; /* Fixes height to ensure video doesn't become too small */
+  }
+
+  .engineeringDivisionVideo video {
+    height: 100%; /* Makes video fill the fixed container height */
+    object-fit: cover; /* Ensures video covers the area properly without distortion */
+  }
+
+  h1{
+    font-size: 46px;
+  }
+
+  p {
+      font-size: 18px;
+      line-height: 28px;
+      padding-bottom: 45px;
+  }
+
+
+
+  .vieoPart {
+    width: 500px;
+    height: 600px;
+}
+
+.vieoPartMain img {
+  bottom: 34px;
+}
+
+.infoPart p {
+  font-size: 18px;
+}
+
+.videoContent {
+  max-width: 1700px;
+  margin: auto;
+  padding: 0 25px;
+  z-index: 9999;
+}
+
+}
+
+
+
+@media (max-width:1350px){
+  .fotternewClass{
+    padding-right: 60px;
+  }
+}
+
+@media (max-width:1250px){
+  .fotternewClass{
+    padding-right: 50px;
+  }
+
+}
+
+
+@media (max-width:1238px){
+
+  .fotternewClass{
+    padding-right: 30px;
+  }
+
+
+
+}
+
+
+
+@media (max-width:1199px){
+
+  .nav-link {
+    margin-right: 15px;
+}
+
+  .vieoPart {
+    width: 100%;
+    height: 500px;
+}
+
+.infoPart p {
+ padding-bottom: 30px;
+}
+
+.infoPart h1 {
+  padding-bottom: 30px;
+}
+
+.vieoPartMain img {
+  width: 90%;
+}
+}
+
+
+
+
+
+
+@media (max-width:1120px){
+  .fotternewClass5{
+    padding-right: 40px;
+  }  
+  .nav-link {
+    margin-right: 9px;
+}
+}
+
+
+@media (max-width:1088px){
+
+}
+
+
+
+@media (max-width:1080px){
+
+
+
+  .sectionDeviderforDesktopBottomPadding {
+    padding-bottom: 70px;
+}
+
+  .productCardfor1080{
+    width: 33.33%;
+  }
+
+  .form-check-custom {
+    margin-right: 31px;
+}
+
+  .engineeringDivisionVideo video {
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+  
+
+  .dropdown-menu {
+    width: 285px;
+    padding: 0;
+    border-radius: 0;
+}
+
+  .reputationonlyfor767{
+    width: 50%;
+  }
+
+
+
+
+
+  .map2 {
+    padding-right: 20px;
+}
+
+  .engineeringDivisionTextInfo {
+    padding-right: 70px;
+}
+  .structuralDivisionRight .card {
+    padding: 26px;
+}
+
+  .structuralDivisionRight .owl-carousel .owl-nav button {
+    width: 35px;
+    height: 35px;
+}
+
+  .structuralDivisionRight .owl-carousel .owl-nav button.owl-next {
+    right: -35px!important;
+  }
+  
+
+  .structuralDivisionRight .owl-carousel .owl-nav button.owl-prev {
+    left: -35px!important;
+}
+
+  .structuralDivisionRight .owl-carousel .owl-nav button .fa-chevron-right {
+    font-size: 20px;
+}
+
+.structuralDivisionRight .owl-carousel .owl-nav button.owl-prev .fa-chevron-left {
+  font-size: 20px;
+}
+
+  .reputationCard {
+    height: 212px;
+}
+
+  .infoPart {
+    padding-left: 70px;
+}
+
+.productDivisionInfo {
+  padding-left: 70px;
+}
+
+.overlay h1 {
+  font-size: 45px;
+  line-height: 52px;
+  padding-bottom: 50px;
+}
+
+  .structuralDivisionRight .owl-carousel .owl-nav button.owl-prev {
+    top: 50%;
+}
+  .structuralDivisionRight .card {
+    padding: 20px;
+}
+
+
+  .span4 a, .span5 a {
+    color: #4B4B4B;
+    font-size: 17px;
+}
+
+  .missionValueInfo {
+    padding-left: 85px;
+  }
+
+
+
+  .missionValueInfo h2 {
+    padding-bottom: 15px;
+}
+
+  .footerContactcustomPadding li{
+    font-size: 13px;
+  }
+
+  footer p, h3 {
+    font-size: 15px;
+}
+  label {
+    font-size: 18px;
+}
+
+  h6 {
+    font-size: 19px;
+}
+
+h4 {
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+
+p{
+  font-size: 18px;
+}
+
+.reputationCard p{
+  font-size: 18px;
+}
+
+    /* Set the font size for placeholder text and input text to 18px */
+input[type="search"]{
+  font-size: 18px;
+}
+input[type="search"]::placeholder {
+  font-size: 18px;
+}
+input::placeholder, input[type="text"],  input[type="tel"], input[type="number"], textarea {
+  font-size: 18px;
+}
+textarea::placeholder{
+  font-size: 18px;
+}
+textarea{
+  font-size: 18px;
+}
+.form-control {
+  font-size: 18px;
+}
+.btn {
+  font-size: 18px!important;
+  padding: 0;
+}
+  h1 {
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+  /* .navbar-brand img {
+    width: 170px;
+    height: 113px;
+} */
+  .nav-link {
+    font-family: TT Hoves Pro Trial;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: .01em;
+    color: #000;
+    padding: 8px 10px!important;
+    margin-right: 10px;
+}
+
+.desktopsearchform{
+  width: 300px;
+}
+
+.infoPart p {
+  font-size: 18px;
+}
+
+}
+
+
+
+
+@media (max-width:1040px){
+.footernewclass4{
+  padding-left: 0!important;
+}
+
+
+}
+
+
+
+@media (max-width:991px) {
+
+
+
+  .footernewclass4 {
+    padding-left: 40px!important;
+}
+
+
+  .footernewclass4{
+    padding-left: 60px;
+  }
+
+  input::placeholder {
+    color: #fdfdfd;
+  }
+
+
+.headerfordesktop{
+  display: none;
+}
+
+.headerformobile {
+  display: block;
+  box-shadow: 0px 8px 8px 0px rgba(83, 83, 83, 0.25);
+  transition: box-shadow 0.3s ease;
+}
+
+.headerformobile.no-shadow {
+  box-shadow: none;
+}
+.offcanvas-menu{
+  display: block;
+}
+
+
+
+.mobile-menu {
+  display: none;
+}
+
+.mobile-menu.show {
+  display: block;
+}
+
+.mobile-menu-submenu {
+  display: none;
+}
+
+.mobile-menu-submenu.show {
+  display: block;
+}
+
+
+
+
+.offcanvas-menu {
+  position: fixed;
+  top: 0;
+  left: 100%; /* Initially off-screen */
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 1000; /* Ensure it's above other content */
+  transition: left 0.3s ease-in-out; /* Smooth sliding transition */
+}
+
+.offcanvas-menu.show {
+  left: 0; /* Slide in when shown */
+}
+
+.offcanvas-menu-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 85%;
+  height: 100%;
+  background-color: #2C2C2C;
+  padding: 20px;
+  padding-top: 130px;
+  overflow-y: scroll; /* Still enables scrolling, but scrollbar will be hidden */
+  padding-bottom: 50px;
+
+  /* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+  &::-webkit-scrollbar {
+      width: 0;
+      height: 0;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+
+.mobile-menu-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.mobile-menu-item {
+  margin-bottom: 10px; /* Adjust spacing between menu items */
+}
+
+.mobile-menu-link {
+  display: block;
+  text-decoration: none;
+  color: #FFFFFF; /* Link color */
+  font-size: 20px;
+  font-family: TT Hoves Pro Trial;
+  padding: 15px 0;
+  border-bottom: .5px solid #646464;
+}
+
+/* Styles for mobile menu toggler button */
+.mobile-menu-submenu {
+  list-style: none; /* Remove default bullets */
+}
+
+.mobile-menu-submenu li {
+  position: relative;
+}
+
+.mobile-menu-submenu li::before {
+  content: '•'; /* Bullet point character */
+  position: absolute;
+  left: 0;
+  color: transparent; /* Make bullet point transparent */
+}
+.mobile-menu-toggler {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+}
+
+.mobile-menu-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.close-offcanvas {
+  position: absolute;
+  top: 40px;
+  right: 37px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+}
+
+
+.mobile-logo img{
+  width:180px;
+}
+
+
+
+ol, ul {
+  padding-left: 1.5rem;
+}
+
+
+/* hidden search bar style */
+.headerformobile {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 99;
+}
+
+.search-toggler {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.search-container {
+  width: 100%;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px; /* Initial padding set to 0 to hide completely */
+  box-sizing: border-box;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+
+}
+
+
+.search-input {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 5px 10px;
+  font-size: 18px;
+  flex-shrink: 0;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  color: #ffffff;
+}
+
+.input-wrapper{
+  width: 100%;
+  height: 50px;
+}
+
+
+
+
+
+.search-button:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.search-input:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+/* hidden search bar style */
+
+/* offcanvas design */
+
+
+
+
+
+/* dropdown icon */
+.mobile-menu-dropdown {
+  position: relative; /* Ensure the icon is positioned correctly */
+}
+
+.dropdown-icon {
+  position: absolute;
+  right: 20px; /* Adjust as needed */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for rotation */
+}
+
+.mobile-menu-submenu.show {
+  display: block; /* Ensure the submenu is shown when the 'show' class is added */
+  background-color: #3C3C3C;
+}
+
+/* Optional: Style for the mobile-menu-caret */
+.mobile-menu-caret {
+  display: none; /* Hide existing caret if not needed */
+}
+
+/* dropdown icon */
+
+
+
+
+
+  
+
+
+
+
+
+
+
+.textfordesktop{
+  display: none;
+}
+
+.textfortablet{
+  display: block;
+}
+
+.textfortabletforcontact{
+  display: block;
+}
+
+
+
+  .floating-wpp {
+    bottom: 18px;
+    right: 27px!important;
+}
+
+
+  .form-control2{
+    padding-left: 24px;
+  }
+
+
+  .footerContactcustomPadding li{
+    font-size: 16px;
+  }
+
+
+
+
+  .productCardfor1080{
+    width: 50%;
+  }
+
+
+  .form-check-custom {
+    margin-right: 0px;
+  }
+
+  p {
+    font-size: 18px;
+}
+
+  h4 {
+    font-size: 32px;
+}
+
+  
+
+
+
+
+
+
+
+
+
+/* buttons */
+.item button {
+  height: 50px;
+}
+
+
+
+.structuralproductbutton{
+  width: 258px;
+  height: 58px;
+}
+
+.btn3 {
+  width: 265px;
+  font-size: 16px;
+}
+/* buttons */
+
+
+  .engineeringDivisionTextInfo{
+    padding-right: 0
+  }
+
+
+  .contactForm {
+    width: 100%;
+}
+
+  .btn-icon{
+    border: none;
+    background-color: transparent;
+    margin-right: 15px;
+  }
+
+  .btn-icon img{
+    width: 30px;
+  }
+
+
+  .gmap_canvas{
+    padding-top: 9px;
+    padding-bottom: 15px;
+  }
+
+  .map2{
+    display: none;
+  }
+
+  .newposition{
+    position: relative;
+    text-align: right;
+    color: #ffffff;
+  }
+
+  .newposition span{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    width: 180px;
+    height: 41px;
+    padding-top: 8px;
+    padding-right: 10px;
+    background-color:#33333380;
+    font-size: 18px;
+  }
+
+
+
+.sectorcol4padding{
+  padding-right: 0;
+}
+
+.sectorcol4padding img{
+  width: 100%;
+}
+
+
+  /* Targeting the breadcrumbs to change text color */
+.breadcrumb {
+  color: #4B4B4B; /* This changes the text color */
+}
+
+/* Change the color of text and link in the breadcrumb */
+.breadcrumb a {
+  color: #4B4B4B; /* This changes the link color */
+}
+
+/* Change the breadcrumb divider color */
+.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  color: #4B4B4B;/* This changes the separator color */
+}
+
+/* Ensure the active breadcrumb item is also white */
+.breadcrumb-item.active {
+  color: #4B4B4B;
+}
+
+
+
+
+  .overlay h1{
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .overlay p{
+    display: none;
+  }
+
+  /* updated */
+  .video-container {
+    height: 500px;
+    margin-bottom: 70px;
+}
+
+
+.video-container {
+  margin-bottom: 100px;
+}
+
+
+.vieoPartMain img {
+  width: 256.7px;
+  height: 148.6px;
+  bottom: 4px;
+}
+
+
+/* updated */
+.vieoPart {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.infoPart {
+  padding: 0;
+  padding-left: 80px;
+}
+
+
+
+/* updated */
+.infoPart h1 {
+  font-size: 32px;
+  padding-bottom: 35px;
+}
+
+
+
+/* updated */
+.infoPart p {
+  font-size: 18px;
+  line-height: 32px;
+  padding-bottom: 45px;
+}
+
+
+
+/* updated */
+.reputation h1 {
+  font-size: 32px;
+  line-height: 5px;
+  padding-bottom: 45px;
+}
+
+
+
+/* updated */
+.aboutUs {
+  margin-bottom: 100px;
+}
+
+
+
+/* updated */
+.reputationText {
+  font-family: TT Hoves Pro Trial;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  color: #4B4B4B;
+  padding-bottom: 35px;
+}
+
+
+
+.reputationCard {
+  padding: 15px;
+  height: 240px;
+}
+
+.reputationCard img {
+  width: 32.9px;
+  height: 33.33px;
+  margin: auto;
+}
+
+.reputationCard h6{
+  font-size: 18px;
+}
+
+.reputationCard p {
+font-size: 18px;
+}
+
+
+/* updated */
+
+
+.sectorforDesktop{
+  display: none;
+}
+
+
+.secorfortablet{
+  display: block;
+}
+
+
+/* Add margin to the images */
+
+
+/* Align the right side images to the right */
+.col-4:last-child {
+  text-align: right;
+}
+
+.image-container {
+  display: flex;
+  align-items: stretch;
+  padding-left: 0; /* Ensures that items will stretch to fill the container's height */
+}
+
+.image-container img {
+  width: 100%; /* Ensures the image takes up the full width of its container */
+  height: auto; /* Allows the height to adjust proportionally to the width */
+}
+
+
+/* updated */
+.sector h1 {
+  font-family: TT Hoves Pro Trial;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 52.8px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 35px;
+}
+
+
+
+
+
+.sectorformobile{
+  display: none;
+}
+
+.productDivisionInfo h1{
+  font-size: 32px;
+  padding-bottom: 38px;
+}
+
+
+
+
+
+
+
+
+.productDivisionInfo{
+  padding-left: 80px;
+}
+
+
+/* updated */
+.productDivision {
+  background-color: #F1F1F1;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+
+
+/* updated */
+.structuralDivisionleft h1 {
+  font-family: TT Hoves Pro Trial;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 35px;
+  padding-bottom: 30px;
+}
+
+
+
+/* updated */
+.structuralDivisionleft p {
+  font-family: TT Hoves Pro Trial;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-bottom: 35px;
+}
+
+
+
+
+
+.structuralDivision{
+  padding-bottom: 60px;
+}
+
+.engineeringDivision h1{
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 45px;
+  color: #222222;
+  padding-bottom: 35px;
+}
+
+.engineeringDivision p {
+  font-family: TT Hoves Pro Trial;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-bottom: 35px;
+  padding-right: 0px;
+  color: #4B4B4B;
+}
+.engineeringDivisionTextInfo{
+  padding-bottom: 60px;
+}
+
+.hiddenfromTablet{
+  display: none;
+}
+
+.hiddeninDesktop{
+  display: block;
+}
+
+
+
+footer p, h3{
+  font-size: 16px;
+ }
+
+ footer h3{
+  font-size: 20px;
+ }
+
+ .floating-wpp .floating-wpp-button{
+  height: 59px!important;
+  width: 59px!important;
+ }
+
+ .footerCustomp1{
+  padding-bottom: 30px;
+  padding-top: 0px;
+  
+ }
+
+ .footerCustomp2 p{
+  text-align: center;
+ }
+
+ .map{
+  padding: 0px;
+}
+
+
+
+
+
+
+
+
+/* new update */
+.btn2 {
+  width: 225px;
+  margin-bottom: 25px;
+}
+
+.btn1 {
+  width: 180px;
+  height: 50px;
+}
+
+.structuralDivisionRight .owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  right: -40px!important;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.structuralDivisionRight .owl-carousel .owl-nav button {
+  background: #fff;
+  color: #333;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.structuralDivisionRight .owl-carousel .owl-nav button .fa-chevron-right {
+  font-size: 20px;
+}
+
+
+.structuralDivisionRight .owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  left: -40px!important;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.structuralDivisionRight .owl-carousel .owl-nav button.owl-prev .fa-chevron-left {
+  font-size: 20px;
+}
+
+.productDivision img{
+  width:100%;
+}
+
+.contact {
+    padding-top: 45px;
+    padding-bottom: 90px;
+}
+
+.form-label{
+  font-size: 18px;
+}
+
+.contact h1 {
+    font-family: TT Hoves Pro Trial;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 52.8px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contact p {
+    font-family: TT Hoves Pro Trial;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #4B4B4B;
+}
+
+.mapouter{
+height: 100%!important;
+padding-bottom: 35px;
+}
+
+.mainItem{
+  padding-left: 200px;
+}
+
+}
+
+
+
+@media (max-width:870px) {
+
+  .footernewclass4 {
+    padding-left: 28px!important;
+}
+}
+
+
+@media (max-width:850px) {
+
+
+  .footernewclass4{
+    padding-left: 50px;
+  }
+
+}
+
+@media (max-width:810px) {
+
+  .footernewclass4 {
+    padding-left: 18px!important;
+}
+}
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+
+
+
+  /* ......................... */
+  .structuralDivisionRight .card {
+    padding: 30px;
+  }
+
+  .structuralDivisionRight .owl-carousel .owl-nav button.owl-prev {
+    left: -25px !important;
+  }
+  .structuralDivisionRight .owl-carousel .owl-nav button.owl-next {
+    right: -25px !important;
+  }
+  /* ......................... */
+
+
+
+  .productDivisionInfo {
+    padding-left: 50px;
+}
+
+
+.infoPart {
+  padding-left: 50px;
+}
+
+
+.infoPart p {
+  padding-right: 10px;
+}
+
+.sectorcol4paddingtablet{
+  padding-left: 0;
+}
+
+
+
+
+
+
+.vieoPart {
+
+}
+
+.vieoPartMain img {
+  width: 240.7px;
+  height: 130.6px;
+  bottom: 27px;
+}
+
+.btn1 {
+  width: 180px;
+  height: 40px;
+}
+
+
+}
+
+
+@media (max-width:767px){
+
+
+  .footernewclass5{
+    padding-left: 20px;
+  }
+
+footer p, h3 {
+	font-size: 15px;
+}
+footer a {
+	font-size: 15px;
+}
+
+.emailPhoneforDesktop{
+  display: none;
+}
+
+.emailPhonefor767{
+  display: block;
+}
+
+.emailPhonefor767 img{
+  width: 16px;
+}
+
+
+/* ........................ */
+.sector{
+    margin-top: -30px;
+  }
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: #D6D6D6;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity .2s ease;
+  border-radius: 0px;
+}
+
+/* ........................ */
+
+
+
+  .hidebuttonfortablet{
+    display: none;
+  }
+
+  .viewBottonfortablet{
+    display: block!important;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+  }
+
+  .carousel1{
+    display: block!important;
+  }
+
+  .mobile{
+    display: block;
+  }
+  
+
+  
+
+  .sectionDeviderforDesktopBottomPadding2 {
+    padding-bottom: 70px;
+}
+
+  .caruselWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+
+.customwidthfofooter{
+  width: 33.33%;
+}
+
+  .structuralDivisionleft{
+    margin-left: -4px;
+  }
+
+  .btn{
+    height: 65px;
+  }
+  .structuralproductbutton {
+    height: 65px;
+}
+
+  .btn1 {
+    height: 65px;
+}
+
+
+  .item button {
+    height: 65px;
+}
+
+
+
+  .desktop{
+    display: none;
+  }
+
+  
+.carouselreputation{
+  display: none;
+}
+  .btn2 {
+    width: 240px;
+    margin-bottom: 25px;
+}
+  /* CSS */
+.videosectionforsplitscreen {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  display: block;
+}
+
+.videoforSplit {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.videoforSplit video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the entire container while preserving aspect ratio */
+}
+
+.infoPart{
+  padding-left: 0;
+  padding-bottom: 60px;
+}
+
+.reputationonlyfor767{
+  width: 98%;
+}
+
+.video-container {
+  margin-bottom:60px;
+}
+.aboutUs {
+  margin-bottom: 70px;
+}
+
+.reputationCard {
+  padding:20px 30px;
+  height: auto;
+}
+
+.newposition span {
+  width: 150px;
+  height: 41px;
+  font-size: 16px;
+}
+
+.productDivisionTextforMobile{
+  display: block;
+  font-family: TT Hoves Pro Trial;
+font-size: 32px;
+font-weight: 600;
+line-height: 5px;
+padding-bottom: 60px;
+}
+
+.productDivisionTextfordesktop{
+  display: none;
+}
+
+.productDivision {
+  padding-top: 75px;
+}
+
+.productDivisionInfo {
+  padding-left: 10px;
+  padding-top: 45px;
+}
+
+.productpaddingfor767only{
+  padding:10px;
+}
+
+.productDivision {
+  padding-bottom: 60px;
+}
+
+.engineeringDivision h1 {
+  padding-bottom: 30px;
+}
+
+.engineeringDivision p {
+  padding-right: 10px;
+}
+
+.sectionDeviderforDesktopBottomPadding {
+  padding-bottom: 90px;
+}
+
+.form-check-custom {
+  padding-right: 35px;
+}
+
+
+
+
+.productdivisionimagefordesktop{
+  display: none;
+}
+
+.productdivisionimageforsmalldevice{
+  display: block;
+}
+
+.hiddeninDesktop{
+  display: none;
+}
+
+.hiddenfromTablet{
+  display: block;
+}
+
+}
+
+@media (max-width:759px){
+  .fotternewClass2 {
+    padding-right: 27px;
+}
+
+.fotternewClass3{
+  padding-left: 60px;
+}
+}
+
+
+@media (max-width:712px){
+  .footerContactcustomPadding {
+    padding-left: 10px;
+}
+}
+
+@media (max-width:726px){
+  .fotternewClass2 {
+    padding-right: 0px;
+}
+}
+
+
+@media (max-width:700px){
+
+  
+.footerContactcustomPadding{
+  padding-left: 10px;
+}
+
+.footerContactcustomPadding2 {
+  padding-left: 30px;
+}
+
+}
+
+@media (max-width:699px){
+  .footerContactcustomPadding {
+    padding-left: 0px;
+}
+}
+
+@media (max-width:645px){
+  .fotternewClass5 {
+    padding-right: 20px;
+}
+}
+
+
+@media (max-width:600px){
+  .structuralDivisionRight .card {
+    padding: 30px;
+}
+
+.structuralDivisionRight .owl-carousel .owl-nav button.owl-prev {
+  left: -25px!important;
+}
+.structuralDivisionRight .owl-carousel .owl-nav button.owl-next {
+  right: -25px!important;
+}
+.footerContactcustomPadding2 {
+  padding-left: 25px;
+}
+
+footer {
+  background-color: #373737;
+  padding: 60px 13px 30px 13px;
+}
+
+}
+
+
+@media (max-width:585px){
+  .fotternewClass5 {
+    padding-right: 0px;
+}
+}
+
+
+@media (max-width:575px){
+
+  .form-control {
+    font-size: 16px;
+  }
+
+  label {
+    font-size: 16px;
+  }
+
+  input::placeholder, input[type="text"], input[type="tel"], input[type="number"], textarea {
+    font-size: 16px;
+  }
+  textarea::placeholder {
+    font-size: 16px;
+  }
+  
+
+  .form-label {
+    font-size: 16px;
+  }
+
+  .contact span {
+    font-size: 16px;
+  }
+
+  .contact p {
+    font-size: 16px;
+  }
+
+  .structuralDivisionleft p {
+
+    font-size: 16px;
+
+  }
+
+  .btn {
+    font-size: 16px !important;
+  }
+
+  .reputationCard p {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .reputationText {
+
+    font-size: 16px;
+
+  }
+
+  .extraPaddingon575{
+    margin-top: -10px;
+  }
+
+  .engineeringDivisionVideo {
+    height: 332px;
+}
+
+  .sectionDeviderforDesktopBottomPadding2 {
+    padding-bottom: 35px;
+}
+
+
+  .footerCustomp2 p{
+    text-align: left;
+  }
+
+  footer p {
+    padding-bottom: 0px;
+}
+
+
+
+  footer {
+    background-color: #373737;
+    padding: 60px 15px 50px 15px;
+}
+
+.fotternewClass3{
+  margin-top: -15px;
+}
+.footerCustomp1 {
+  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-left: 9px;
+}
+
+
+  .videosectionforsplitscreen {
+    height: 400px;
+  }
+
+
+
+  .structuralDivisionleft {
+    margin-left: 0px;
+  }
+
+
+
+  .floating-wpp {
+    right: 15px!important;
+    bottom: 20px;
+}
+
+  ol, ul {
+    padding-left:1rem;
+}
+
+  .offcanvas-menu-content {
+    width: 90%;
+}
+  .footerContactcustomPadding2{
+    padding-left: 10px;
+  }
+  .footerContactcustomPadding {
+    padding-left: 10px;
+}
+
+  .customwidthfofooter {
+    width:100%;
+}
+
+
+
+
+  .productDivisionInfo {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.structuralDivisionleft{
+  padding: 0 15px;
+}
+
+.engineeringDivisionTextInfo{
+  padding: 0 25px 60px 25px;
+}
+
+
+  .videoforSplit {
+    padding-top: 35px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+
+  .form-check-custom {
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+  .productpaddingfor767only{
+    padding: 0 25px 0 25px;
+  }
+
+
+.missionValueimg {
+    padding: 0;
+    padding-bottom: 45px;
+}
+
+  .vieoPartMain{
+    display: none;
+  }
+
+  .vieoPart {
+    width: 100%;
+    height: 550px;
+    margin: auto;
+}
+
+
+.vieoPartMain img {
+  width: 80%;
+  height: auto;
+  bottom: -100px;
+}
+
+
+.infoPart{
+  padding: 20px;
+  padding-top:0;
+
+  padding: 0 25px 20px 25px;
+}
+
+.infoPart h1{
+  font-family: TT Hoves Pro Trial;
+font-size: 30px;
+font-weight: 600;
+line-height: 5px;
+}
+
+.infoPart p{
+  font-family: TT Hoves Pro Trial;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+
+}
+
+.btn1 {
+  width: 196px;
+  height: 54px;
+}
+
+
+.reputationText{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+.structuralDivisionRight .card {
+  padding: 14px;
+}
+
+.engineeringDivisionVideoWrapper{
+  padding: 0 25px;
+}
+
+
+.contact {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sectionDeviderforDesktopBottomPadding {
+  padding-bottom: 70px;
+}
+.reputationCard {
+  padding: 20px 20px;
+  height: 230px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:500px){
+  .copyRightfor500{
+    display: block;
+    margin-left: -4px!important;
+  }
+
+  .copyRightforDesktop{
+    display: none;
+  }
+
+  .structuralDivisionRight {
+    padding-top: 0px;
+  }
+
+
+
+.reputation h1 {
+  padding-bottom: 35px;
+}
+
+h4 {
+  padding-bottom: 35px;
+}
+
+.productDivisionTextforMobile {
+  padding-bottom: 45px;
+}
+
+.productDivision {
+  padding-top: 60px;
+}
+
+.floating-wpp {
+  right: 30px!important;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:451px){
+  .engineeringDivision p {
+    font-size: 16px;
+}
+
+  .contact h1 {
+    font-family: TT Hoves Pro Trial;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 52.8px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .engineeringDivision h1 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 45px;
+    color: #222222;
+    padding-bottom: 20px;
+  }
+
+
+
+  .productDivisionTextforMobile {
+    font-size: 25px;
+  }
+
+  h4 {
+    font-size:25px;
+  }
+
+  .infoPart h1 {
+    font-size: 25px;
+  }
+
+  .btn2 {
+    width: 210px;
+    margin-bottom: 25px;
+  }
+
+  .viewBottonfortablet {
+    width: 210px;
+  }
+
+  .btn1 {
+    width: 175px;
+    height: 54px;
+  }
+
+  h1 {
+    font-size: 35px;
+
+  }
+
+  .productdivisionimagefordesktop {
+    display: block;
+}
+
+.productdivisionimageforsmalldevice {
+  display: none;
+}
+
+  .caruselWrapper{
+    padding-left: 13px;
+  }
+
+  .engineeringDivisionVideo {
+    height: 310px;
+}
+
+  .videoforSplit {
+    padding-left: 25px;
+}
+
+  .videosectionforsplitscreen {
+    height: 345px;
+}
+
+  .form-check-custom {
+    padding-right: 0px;
+}
+
+ .carousel2 .owl-theme .owl-nav.disabled+.owl-dots{
+  margin-top: 40px;
+ }
+
+  .homeContact{
+    margin-bottom: -10px;
+  }
+
+  .footerCustomp2 p{
+    padding-right: 120px;
+  }
+
+  .contact {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.paddingforselctsubject{
+  padding-bottom: 50px!important;
+}
+
+  .item button{
+    padding: 0 10px;
+  }
+
+  .item button:focus{
+    background-color: #ff4a23;
+    color: #ffffff;
+  }
+
+  .structuralDivisionleft{
+    margin-top: 10px;
+  }
+
+  .structuralDivisionRight{
+    padding-left: 5px;
+  }
+
+  .btn2 {
+    margin-bottom: 40px;
+}
+
+  .sectionDeviderforDesktopBottomPadding2 {
+    padding-bottom: 45px;
+}
+
+  .structuralDivisionleft p {
+    padding-bottom: 47px;
+}
+
+  .productDivisionInfo {
+    padding-left: 25px;
+    padding-top: 0px;
+}
+
+h4{
+  text-align: left;
+  padding-left: 25px;
+}
+
+  .search-toggler img{
+    width: 28px!important;
+  }
+
+  .mobile-menu-toggler {
+    padding-right: 17px!important;
+  }
+
+  .structuralDivisionRight .card {
+    padding: 0 10px;
+  }
+
+  .reputationonlyfor767 {
+    width: 100%;
+    margin-left: -13px;
+}
+
+  /* ............ */
+  /* .owl-carousel .owl-stage-outer {
+    margin-left: -7px;
+} */
+  /* .......... */
+
+  .reputation {
+    margin-bottom: 0px;
+}
+
+
+  /* .reputationonlyfor767{
+    width: 95%;
+  } */
+
+  .structuralDivisionleft {
+    margin-left: 0px;
+}
+  
+
+
+  .carouselreputation{
+    display: none;
+  }
+
+
+
+ 
+  
+  .owl-theme .owl-nav {
+    margin-top: -10px;
+  }
+  
+  .owl-nav{
+    display: flex;
+    justify-content: start;
+  }
+  
+  .owl-nav button{
+    background-color: #ff4a23!important;
+    width: 35px;
+    height: 35px;
+    border-radius: 0!important;
+  }
+  .owl-counter{
+    position: absolute;
+    bottom: 12px;
+    right: 15px;
+    font-family: TT Hoves Pro Trial;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+  }
+  
+
+
+
+
+  .mobileindustrylavel{
+    position: relative;
+  }
+
+
+  .mobileindustrylavel span{
+    position: absolute;
+    width: 163px;
+    height: 41px;
+    background-color:#33333380;
+    bottom: 20px;
+    right: 0;
+    color: #ffffff;
+    font-family: TT Hoves Pro Trial;
+    font-size: 16px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10px;
+  }
+
+
+
+
+  .aboutUs {
+    margin-bottom: 65px;
+}
+
+
+  .footerContactcustomPadding {
+    padding-left: 10px;
+}
+
+.footerContactcustomPadding2 {
+  padding-left: 10px;
+  padding-bottom: 6px;
+}
+
+  .reputationText{
+    text-align: left;
+  }
+
+  .reputation h1 {
+    font-size: 25px;
+    line-height: 5px;
+    padding-bottom: 35px;
+    text-align: left;
+    padding-left: 22px;
+}
+
+
+
+  .video-container {
+    height: 100vh;
+    margin-top: 0px;
+}
+
+
+
+.overlay{
+  padding-top: 121px;
+}
+
+.overlay h1 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: left;
+}
+
+
+
+.vieoPartMain{
+  margin-bottom: 30px;
+}
+
+.vieoPartMain h1{
+  font-size: 32px;
+  padding-bottom: 30px;
+}
+
+.vieoPartMain img {
+  bottom: -35px;
+}
+
+
+
+.caruselWrapper{
+  position: relative;
+}
+
+
+.sector h1{
+  font-size: 28px;
+}
+
+.secorfortablet{
+  display: none;
+}
+
+.sectorformobile{
+  display: block;
+}
+
+
+
+.productDivision{
+  padding-top: 60px;
+}
+
+.productDivision img{
+  padding-bottom: 30px;
+  height: 450px;
+}
+
+
+
+.structuralDivisionleft h1 {
+  font-family: TT Hoves Pro Trial;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 36px;
+  padding-bottom:6px;
+}
+
+.structuralDivisionleft p{
+  font-family: TT Hoves Pro Trial;
+font-weight: 400;
+line-height: 30px;
+}
+
+.structuralDivisionRight .card{
+  background-color: #F1F1F1;
+}
+
+
+
+.btn3{
+  width: 220px;
+  font-size: 16px;
+}
+
+
+.vieoPart{
+  width: 100%;
+  height: 340.61px;
+}
+
+
+.vieoPartMain img{
+  width: 256.78px;
+  height: 148.63px;
+}
+
+.infoPart {
+  padding: 0px;
+  padding-top: 0px;
+  padding: 0 25px;
+}
+
+.reputationText {
+  padding-left: 12px;
+  padding-right: 15px;
+}
+
+
+
+
+
+
+
+.carousel2 .mobileindustrylavel {
+  height: 450px; /* Set your desired height */
+
+}
+
+
+.sectorformobile{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+
+.reputationCard {
+  height: 240px;
+}
+
+.sector {
+  margin-top: -10px;
+}
+
+.desktop2{
+  display: none;
+}
+
+.newHometext{
+  display: block;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+@media (max-width:420px){
+
+}
+
+
+@media (max-width:420px){
+  .form-check-custom {
+    padding-right: 0px;
+}
+
+}
+
+
+@media (max-width:400px){
+
+  .textfortabletforcontact{
+    display: none;
+  }
+
+
+  .textformobileforconatct{
+    display: block;
+  }
+  .reputationCard {
+    height: 255px;
+}
+.footerCustomp2 p {
+  padding-right: 60px;
+}
+}
+
+@media (max-width:380px){
+  .form-check-custom {
+    padding-right: 110px;
+  }
+  .footerCustomp2 p {
+    padding-right: 25px;
+  }
+  .floating-wpp {
+    right: 15px !important;
+    bottom: 14px;
+  }
+
+  .aboutussection1 {
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+  .reputation h1 {
+    margin-bottom: 00px;
+  }
+  .contact h1 {
+    padding-bottom: 15px;
+  }
+
+  .paddingforselctsubject {
+    padding-bottom: 25px !important;
+  }
+
+  .overlay h1 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .search-toggler img {
+    width: 25px !important;
+    margin-right: -10px;
+  }
+
+  .mobile-menu-toggler img{
+    width: 32px!important;
+  }
+
+  .engineeringDivision h1 {
+    padding-bottom: 15px;
+  }
+
+  .productDivision img {
+    height: 400px;
+  }
+  .carousel2 .mobileindustrylavel {
+    height: 400px;
+  }
+
+  .mobile-menu-toggler {
+    padding-right: 12px !important;
+  }
+}
+
+
+
+
+
+@media (max-width:320px){
+  .form-check-custom {
+    padding-right: 30px;
+}
+.engineeringDivision h1 {
+  padding-bottom: 10px;
+}
+
+.footerCustomp2 p {
+	padding-right: 0px;
+}
+
+.extraPaddingon575 {
+	margin-top: -40px;
+}
+
+.paddingforselctsubject{
+  margin-top: -30px;
+}
+
+.videoforSplit video{
+  height: 290px;
+}
+
+.engineeringDivisionVideo {
+	height: 290px;
+}
+.aboutUs {
+	margin-bottom: 35px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.perticulerProductinfo.aos-init h2 {
+    text-align: left;
+    border-left: 5px solid #FF4A23;
+    padding-left: 10px;
+    padding-bottom: 0;
+}
+.dropdown-item:hover > a {
+    color: white !important;
+}
+.perticulerProductinfo.aos-init.aos-animate p:last-child {
+    margin-bottom: 0px !important;
+}
+button.btn.btnSubmit:hover {
+    background: white;
+    color: #ff4a23;
+    border: 1px solid #ff4a23;
+}
+
+
+@media (max-width: 451px) {
+    .owl-theme .owl-nav {
+        margin-top: -10px;
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+/* Webpage banner style */
+
+
+/* Styles for allProductBanner */
+.allProductBanner {
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  margin-top: 104px;
+  padding: 80px 0;
+}
+
+.allProductBanner h1 {
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+
+/* Media queries for allProductBanner */
+@media (max-width:991px) {
+  .allProductBanner {
+      margin-top: 100px;
+  }
+
+  .allProductBanner h1 {
+      padding-top: 20px;
+  }
+}
+
+@media (max-width:575px) {
+  .allProductBanner h1 {
+      padding-left: 20px;
+  }
+  .breadcrumbMobile {
+      padding-left: 10px;
+  }
+}
+
+@media (max-width:451px) {
+  .allProductBanner h1 {
+      font-size: 30px;
+  }
+}
+
+@media (max-width:407px) {
+  .allProductBanner {
+      margin-top: 99px;
+  }
+}
+
+@media (max-width:404px) {
+  .allProductBanner {
+      margin-top: 98px;
+  }
+}
+
+@media (max-width:401px) {
+  .allProductBanner {
+      margin-top: 97px;
+  }
+}
+
+@media (max-width:398px) {
+  .allProductBanner {
+      margin-top: 96px;
+  }
+}
+
+@media (max-width:396px) {
+  .allProductBanner {
+      margin-top: 95px;
+  }
+}
+
+@media (max-width:393px) {
+  .allProductBanner {
+      margin-top: 94px;
+  }
+}
+
+@media (max-width:390px) {
+  .allProductBanner {
+      margin-top: 93px;
+  }
+}
+
+@media (max-width:387px) {
+  .allProductBanner {
+      margin-top: 92px;
+  }
+}
+
+@media (max-width:384px) {
+  .allProductBanner {
+      margin-top: 91px;
+  }
+}
+
+@media (max-width:381px) {
+  .allProductBanner {
+      margin-top: 90px;
+  }
+}
+
+@media (max-width:378px) {
+  .allProductBanner {
+      margin-top: 89px;
+  }
+}
+
+@media (max-width:375px) {
+  .allProductBanner {
+      margin-top: 88px;
+  }
+}
+
+@media (max-width:372px) {
+  .allProductBanner {
+      margin-top: 87px;
+  }
+}
+
+@media (max-width:369px) {
+  .allProductBanner {
+      margin-top: 86px;
+  }
+}
+
+@media (max-width:366px) {
+  .allProductBanner {
+      margin-top: 85px;
+  }
+}
+
+@media (max-width:363px) {
+  .allProductBanner {
+      margin-top: 84px;
+  }
+}
+
+@media (max-width:360px) {
+  .allProductBanner {
+      margin-top: 83px;
+  }
+}
+
+@media (max-width:357px) {
+  .allProductBanner {
+      margin-top: 82px;
+  }
+}
+
+@media (max-width:354px) {
+  .allProductBanner {
+      margin-top: 81px;
+  }
+}
+
+@media (max-width:351px) {
+  .allProductBanner {
+      margin-top: 80px;
+  }
+}
+
+@media (max-width:348px) {
+  .allProductBanner {
+      margin-top: 79px;
+  }
+}
+
+@media (max-width:345px) {
+  .allProductBanner {
+      margin-top: 78px;
+  }
+}
+
+@media (max-width:342px) {
+  .allProductBanner {
+      margin-top: 77px;
+  }
+}
+
+@media (max-width:340px) {
+  .allProductBanner {
+      margin-top: 76px;
+  }
+}
+
+@media (max-width:336px) {
+  .allProductBanner {
+      margin-top: 75px;
+  }
+}
+
+@media (max-width:333px) {
+  .allProductBanner {
+      margin-top: 74px;
+  }
+}
+
+@media (max-width:330px) {
+  .allProductBanner {
+      margin-top: 73px;
+  }
+}
+
+@media (max-width:327px) {
+  .allProductBanner {
+      margin-top: 72px;
+  }
+}
+
+@media (max-width:324px) {
+  .allProductBanner {
+      margin-top: 71px;
+  }
+}
+
+@media (max-width:321px) {
+  .allProductBanner {
+      margin-top: 70px;
+  }
+}
+
+@media (max-width:320px) {
+  .allProductBanner {
+      margin-top: 69px;
+  }
+}
+
+@media (max-width:315px) {
+  .allProductBanner {
+      margin-top: 68px;
+  }
+}
+
+@media (max-width:312px) {
+  .allProductBanner {
+      margin-top: 67px;
+  }
+}
+
+@media (max-width:310px) {
+  .allProductBanner {
+      margin-top: 66px;
+  }
+}
+
+@media (max-width:306px) {
+  .allProductBanner {
+      margin-top: 65px;
+  }
+}
+
+@media (max-width:303px) {
+  .allProductBanner {
+      margin-top: 64px;
+  }
+}
+
+@media (max-width:300px) {
+  .allProductBanner {
+      margin-top: 63px;
+  }
+}
+
+@media (max-width:295px) {
+  .allProductBanner {
+      margin-top: 60px;
+  }
+}
+
+@media (max-width:290px) {
+  .allProductBanner {
+      margin-top: 58px;
+  }
+}
+
+@media (max-width:285px) {
+  .allProductBanner {
+      margin-top: 56px;
+  }
+}
+
+@media (max-width:280px) {
+  .allProductBanner {
+      margin-top: 54px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
